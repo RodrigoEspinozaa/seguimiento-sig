@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 9001 en el Proceso de Almacén | ProOil</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f7fa;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #006B31 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWiroak8ZMGe8DX5CG3y9JOWuJY0nNKSadg&s') center/cover;
+            opacity: 0.2;
+            z-index: 0;
+        }
+        header * {
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header-subtitle {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .logo-prooil {
+            height: 80px;
+        }
+        .logo-iso {
+            height: 70px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            font-size: 1.8em;
+        }
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border-left: 5px solid #3498db;
+        }
+        .highlight {
+            background-color: #e8f4fc;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .warning {
+            background-color: #ffebee;
+            padding: 20px;
+            border-left: 4px solid #e53935;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 25px 0;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+            border-top: 4px solid #3498db;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+        .process-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: linear-gradient(135deg, #2c3e50 0%, #006B31 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>ISO 9001 en el Proceso de Almacén</h1>
+        <p class="header-subtitle">Sistema Integral para la Gestión de Calidad en ProOil</p>
+    </header>
+
+    <div class="section">
+    <h2>Introducción</h2>
+    
+    <!-- Contenedor de imagen optimizada -->
+    <div class="image-container">
+        <img src="https://www.unifikas.com/sites/default/files/imagenes/noticias/iso-9001-que-es-y-para-que-sirve.jpg" 
+             alt="Almacén principal de ProOil certificado ISO 9001"
+             loading="lazy"
+             style="width: 100%;
+                    max-width: 800px;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 12px rgba(0,107,49,0.2);
+                    display: block;
+                    margin: 20px auto;">
+    </div>
+
+    <p>La norma ISO 9001 proporciona un marco para gestionar la calidad en todos los procesos organizacionales de ProOil. Esta página resume los requisitos clave aplicados al proceso de almacén según nuestro sistema de gestión.</p>
+    
+    <a href="#contexto" class="cta-button">Ver Requisitos Clave</a>
+</div>
+
+    <div id="contexto" class="section">
+        <h2>4. Contexto de la Organización</h2>
+        <div class="highlight">
+            <p><strong>FODA y Partes Interesadas</strong></p>
+            <ul>
+                <li>Documentos disponibles en la intranet de ProOil</li>
+                <li>Presentados durante el onboarding (22 de abril)</li>
+            </ul>
+       <div class="section">
+    <div class="warning">
+        <p><strong>Atención:</strong> Compras y almacén deben completar su aportación al análisis FODA</p>
+    </div>
+    
+    <!-- Imagen optimizada para ProOil -->
+  <!-- Contenedor principal para las imágenes -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; padding: 20px; max-width: 1300px; margin: 0 auto;">
+
+  <!-- Imagen 1 - Versión ultra nítida -->
+  <div style="width: 400px; height: 300px; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0, 107, 49, 0.15); position: relative; background: #f5f5f5;">
+    <img 
+      src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNO3Qg8TvsK95yyl9na0gTDqMQ0TAKoyrBEPmc4Auzx4s9I06RWbdbPw4sIrEoApLsCQuUKkZlixN5WhvXoVVEL7Cx619CM9xX8EeI8ms36mgU=w500-h375-nu" 
+      alt="Planificación estratégica ProOil"
+      style="width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; transition: transform 0.3s ease; filter: brightness(1.02) contrast(1.05);"
+      onclick="zoomOnClickPolicy(event, this)"
+      loading="eager">
+  </div>
+
+  <!-- Imagen 2 - Versión ultra nítida -->
+  <div style="width: 400px; height: 300px; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0, 107, 49, 0.15); position: relative; background: #f5f5f5;">
+    <img 
+      src="https://lh3.googleusercontent.com/drive-storage/AJQWtBOW8OFiG9WlxMsyh3F-f4btsyNyXuztvuMRQZ-c_ad4980lOYUZCwix0CBiX7o5sWADs1rpooovWyvbXB-HySTsxoAWVtlmf2BaAwsmaB-G4WU=w500-h375-nu" 
+      alt="Equipo ProOil en acción"
+      style="width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; transition: transform 0.3s ease; filter: brightness(1.02) contrast(1.05);"
+      onclick="zoomOnClickPolicy(event, this)"
+      loading="eager">
+  </div>
+</div>
+
+<script>
+  function enhancedZoom(event, img) {
+    const container = img.parentElement;
+    const isZoomed = img.style.transform && img.style.transform !== 'scale(1)';
+    
+    if (!isZoomed) {
+      // Configuración de zoom profesional
+      const rect = container.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width * 100).toFixed(2);
+      const y = ((event.clientY - rect.top) / rect.height * 100).toFixed(2);
+      
+      img.style.transform = `scale(2.5)`;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.cursor = 'zoom-out';
+      img.style.zIndex = '1000';
+      
+      // Overlay de alta calidad
+      const overlay = document.createElement('div');
+      overlay.style.cssText = `
+        position: fixed; top: 0; left: 0;
+        width: 100vw; height: 100vh;
+        background: rgba(0,0,0,0.95);
+        z-index: 999;
+        cursor: zoom-out;
+      `;
+      overlay.onclick = () => {
+        img.style.transform = 'scale(1)';
+        img.style.cursor = 'zoom-in';
+        img.style.zIndex = '1';
+        document.body.removeChild(overlay);
+      };
+      document.body.appendChild(overlay);
+    }
+  }
+</script>
+
+</div>
+
+    <div class="section">
+        <h2>5. Liderazgo</h2>
+        <div class="grid">
+            <div class="card">
+                <!-- Imagen de política de calidad de ProOil -->
+                <!-- Versión mejorada (más nítida y con mejor relación de aspecto) -->
+<!-- Contenedor para la imagen con zoom (conservando tu estilo original) -->
+<div style="width: 100%; overflow: hidden; border: 1px solid #eee; text-align: center; position: relative; cursor: zoom-in;">
+  <img 
+    src="https://lh3.googleusercontent.com/drive-storage/AJQWtBOwxJ80TfEp_QTQWmkk5djRLvDo-NkEDv61iJjg9L547jXN4yV7HSdoLIaj4dXv4rqGwPMLsCSslwc27M_EsWViNNwDpaKPOkK36N7CPbpJ4sU=w1920-h1080-nu" 
+    alt="Política de Calidad ProOil"
+    style="width: 100%; height: auto; object-fit: contain; transition: transform 0.3s ease;"
+    onclick="zoomOnClickPolicy(event, this)"
+    id="politicaImagen"
+  >
+</div>
+
+<script>
+  let isZoomedPolicy = false;
+
+  function zoomOnClickPolicy(event, img) {
+    const container = img.parentElement;
+    
+    if (!isZoomedPolicy) {
+      // Calcular posición del clic para zoom centrado
+      const rect = img.getBoundingClientRect();
+      const x = (event.clientX - rect.left) / rect.width * 100;
+      const y = (event.clientY - rect.top) / rect.height * 100;
+      
+      img.style.transform = 'scale(2)';
+      img.style.transformOrigin = `${x}% ${y}%`;
+      container.style.cursor = 'zoom-out';
+      container.style.overflow = 'auto'; // Permite desplazamiento al hacer zoom
+    } else {
+      // Resetear
+      img.style.transform = 'scale(1)';
+      container.style.cursor = 'zoom-in';
+      container.style.overflow = 'hidden';
+    }
+    
+    isZoomedPolicy = !isZoomedPolicy;
+  }
+</script>
+                <h3>Política de Calidad ProOil</h3>
+                <p>Documento disponible para todo el personal en nuestras instalaciones</p>
+            </div>
+            <div class="card">
+                <!-- Imagen del organigrama de ProOil -->
+                <div style="width: 100%; background: #f8f9fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<!-- Contenedor para la imagen con zoom -->
+<div style="width: 100%; overflow: hidden; cursor: zoom-in; position: relative;">
+  <img 
+    src="https://lh3.googleusercontent.com/drive-storage/AJQWtBN4MaIVZrk8LGudYRQMNfsQIGxh4Kg5GrDjr2JNNSaYZjieoHiVM4fnpXQcLSrtG29NyGj4OdxSAvKqvNo9UrgpzoTBTjDF2HiD5uOSUGXWNaE=w1000-h750-nu" 
+    alt="Organigrama ProOil"
+    style="width: 100%; height: auto; object-fit: contain; border: 1px solid #e0e0e0; transition: transform 0.3s ease;"
+    onerror="this.src='backup_organigrama.png'"
+    onclick="zoomOnClick(event, this)"
+    id="organigramaZoom"
+  >
+</div>
+
+<script>
+  let isZoomed = false;
+
+  function zoomOnClick(event, img) {
+    const container = img.parentElement;
+    const rect = img.getBoundingClientRect();
+    
+    if (!isZoomed) {
+      // Calcular posición del clic (zoom centrado en el punto clickeado)
+      const x = (event.clientX - rect.left) / rect.width * 100;
+      const y = (event.clientY - rect.top) / rect.height * 100;
+      
+      img.style.transform = 'scale(2)';
+      img.style.transformOrigin = `${x}% ${y}%`;
+      container.style.cursor = 'zoom-out';
+    } else {
+      // Resetear zoom
+      img.style.transform = 'scale(1)';
+      container.style.cursor = 'zoom-in';
+    }
+    
+    isZoomed = !isZoomed;
+  }
+</script>
+</div>
+                <h3>Estructura Organizacional</h3>
+                <p>Organigrama actualizado y valores corporativos de ProOil</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de valores corporativos -->
+                <!-- Contenedor con estilo minimalista y zoom -->
+<div style="width: 100%; max-width: 800px; margin: 0 auto; border: 1px solid #f0f0f0; border-radius: 8px; overflow: hidden; cursor: zoom-in;">
+  <img 
+    src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNHfe5GbwSBeKm_ZQgqA4dUX8i1j5ZfTgJsvhSYJ4YarX3t6xdKyJHhrNv7arIJeBxreAe8Yk1eBugLmNWNIvj7fszI5UcOomj2yFfZkwC0Bbs=w1000-h750-nu" 
+    alt="Valores ProOil"
+    style="width: 100%; height: auto; display: block; transition: transform 0.25s ease;"
+    onclick="zoomValores(event, this)"
+  >
+</div>
+
+<script>
+  let zoomState = false;
+
+  function zoomValores(event, img) {
+    const container = img.parentElement;
+    
+    if (!zoomState) {
+      // Calcular posición del clic para zoom preciso
+      const rect = img.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width * 100).toFixed(2);
+      const y = ((event.clientY - rect.top) / rect.height * 100).toFixed(2);
+      
+      img.style.transform = `scale(2.5)`;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      container.style.cursor = 'zoom-out';
+      container.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+    } else {
+      // Resetear
+      img.style.transform = 'scale(1)';
+      container.style.cursor = 'zoom-in';
+      container.style.boxShadow = 'none';
+    }
+    
+    zoomState = !zoomState;
+  }
+</script>
+                <h3>Valores Corporativos</h3>
+                <p>Nuestros principios fundamentales en ProOil</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+    <h2>6. Planificación</h2>
+    
+    <!-- Contenedor de imagen optimizada -->
+    <!-- Contenedor principal con tamaño fijo para todas las imágenes -->
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; padding: 20px; max-width: 1400px; margin: 0 auto;">
+
+  <!-- Imagen 1 - Tamaño fijo -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; padding: 20px;">
+
+  <!-- Imagen 1 - Versión optimizada -->
+  <div style="width: 400px; height: 300px; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0, 107, 49, 0.15); position: relative; background: #f5f5f5;">
+    <img 
+      src="https://lh3.googleusercontent.com/drive-storage/AJQWtBNMSXsZhAlP9k4J_39Zh0atibPYN--SXz2aL3bBM2sAly35dLMUMI4YyqFr9Xrg3i31WrzfujKvD9LvOZF9KbVFEiy3f-scuYuww5oBBVuIPQk=w800-h600-nu" 
+      alt="Planificación estratégica"
+      style="width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; transition: transform 0.3s ease; filter: brightness(1.02) contrast(1.05);"
+      onclick="zoomImage(event, this)">
+  </div>
+
+  <!-- Imagen 2 - Versión optimizada -->
+  <div style="width: 400px; height: 300px; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0, 107, 49, 0.15); position: relative; background: #f5f5f5;">
+    <img 
+      src="https://lh3.googleusercontent.com/drive-storage/AJQWtBMF1jjeZDCnI_RqD88DyauYdUPbzf4FCunuMEXHLAESjRS4lNevPwbbzrKKwPEHxRMNPXthG47m5XDjbC4w1mU-uMmW40472BwDCVPE4P7OUNs=w800-h600-nu" 
+      alt="Trabajo en equipo"
+      style="width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; transition: transform 0.3s ease; filter: brightness(1.02) contrast(1.05);"
+      onclick="zoomImage(event, this)">
+  </div>
+
+  <!-- Imagen 3 - Versión optimizada -->
+  <div style="width: 400px; height: 300px; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0, 107, 49, 0.15); position: relative; background: #f5f5f5;">
+    <img 
+      src="https://lh3.googleusercontent.com/drive-storage/AJQWtBPp84mWaT9eNQPtu34DUrccYwNp-6Vz8_iegUbdH8wTn31K5VyskFSR13xvrEYDe-vQhNUGq6Z7g5SMqd_yp3jSDc55MmowihW9O-WxxE83_3g=w800-h600-nu" 
+      alt="Proyectos"
+      style="width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; transition: transform 0.3s ease; filter: brightness(1.02) contrast(1.05);"
+      onclick="zoomImage(event, this)">
+  </div>
+</div>
+
+<script>
+  function zoomImage(event, img) {
+    const currentScale = img.style.transform ? parseFloat(img.style.transform.replace('scale(', '')) : 1;
+    
+    if (currentScale === 1) {
+      const rect = img.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width * 100).toFixed(2);
+      const y = ((event.clientY - rect.top) / rect.height * 100).toFixed(2);
+      
+      img.style.transform = `scale(2.2)`;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.cursor = 'zoom-out';
+      img.style.zIndex = '100';
+    } else {
+      img.style.transform = 'scale(1)';
+      img.style.cursor = 'zoom-in';
+      img.style.zIndex = '1';
+    }
+  }
+</script>
+
+<script>
+  function zoomImage(event, img) {
+    const container = img.parentElement;
+    if (!img.dataset.zoomed || img.dataset.zoomed === "false") {
+      // Calcular posición del clic para zoom preciso
+      const rect = container.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width * 100);
+      const y = ((event.clientY - rect.top) / rect.height * 100);
+      
+      img.style.transform = `scale(1.8)`;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.cursor = 'zoom-out';
+      container.style.zIndex = '10';
+      img.dataset.zoomed = "true";
+    } else {
+      img.style.transform = 'scale(1)';
+      img.style.cursor = 'zoom-in';
+      container.style.zIndex = '1';
+      img.dataset.zoomed = "false";
+    }
+  }
+</script>
+    <ul>
+        <li>Objetivos y matriz de riesgos disponibles en la intranet</li>
+        <li><strong>Acción requerida:</strong> Revisar riesgos en actividades críticas</li>
+    </ul>
+</div>
+
+    <div class="section">
+        <h2>7. Soporte</h2>
+        <div class="grid">
+            <div class="card">
+                <!-- Imagen de infraestructura del almacén ProOil -->
+                <img src="https://prooil.com.mx/wp-content/uploads/2022/07/servicios_obras_prooil_mexico_1.jpg" alt="Infraestructura del almacén ProOil">
+                <h3>7.1.3 Infraestructura</h3>
+                <p>Instalaciones adecuadas (espacio, iluminación, seguridad) - ALM-D-01</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de ambiente controlado en ProOil -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3HKN5RFIKtyAE_LraWjXKy-sgsKCYL1o8hw&s" alt="Ambiente controlado en ProOil">
+                <h3>7.1.4 Ambiente</h3>
+                <p>Control de temperatura, limpieza y orden - ALM-D-01</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de equipos de medición en ProOil -->
+                <img src="https://masstech.com.mx/wp-content/uploads/2019/03/por-que-se-deben-calibrar-los-termometros.jpg" alt="Equipos de medición en ProOil">
+                <h3>7.1.5 Medición</h3>
+                <p>Equipos calibrados (básculas, termómetros) - ALM-D-01</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de capacitación en ProOil -->
+                <img src="https://media.licdn.com/dms/image/v2/C4D12AQEqjWNqIeGXzg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520126770758?e=2147483647&v=beta&t=IQd1GG1iyZ4YEzMAbDbtN2x1ntszeXTFnJY95U1yMFg" alt="Capacitación en ProOil">
+                <h3>7.2 Competencia</h3>
+                <p>Personal capacitado (REH-R-07, REH-R-03)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>8. Operación</h2>
+        <div class="grid">
+            <div class="card">
+                <!-- Imagen de trazabilidad en ProOil -->
+                <img src="https://tec-mex.com.mx/wp-content/uploads/2022/07/blog-seo-etiquetas-min.jpg" alt="Sistema de trazabilidad ProOil">
+                <h3>8.5.2 Trazabilidad</h3>
+                <p>Identificación clara de productos (etiquetas, códigos)</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de preservación en ProOil -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQBMAduENTSxFuO_HGmAVfvIUk73y-PfJHU-oWh-cISL_xev1uD7XhdeVBjWIoweUhTXaisObgevVv4mZbNQoC55kjXwhlkW5GYaZvN_ZkgmQzZGkjxZc540XAxQkX8Q5yYJC3xZVbrlA/s320/web_dsc_0008_mz.jpg" alt="Preservación de productos en ProOil">
+                <h3>8.5.4 Preservación</h3>
+                <p>Control de embalajes, humedad y apilamiento seguro</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de inspección en ProOil -->
+                <img src="https://www.nueva-iso-9001-2015.com/wp-content/uploads/2017/03/ISO-9001.2015-2.jpg" alt="Inspección de calidad en ProOil">
+                <h3>8.6 Liberación</h3>
+                <p>Verificación antes del despacho</p>
+            </div>
+            <div class="card">
+                <!-- Imagen de gestión de no conformidades -->
+                <img src="https://iso9001procedimientos.wordpress.com/wp-content/uploads/2017/03/producto-no-conforme.jpg" alt="Gestión de no conformidades en ProOil">
+                <h3>8.7 No Conformidades</h3>
+                <p>Identificar, segregar y corregir productos no conformes</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+    <h2>9. Evaluación</h2>
+    
+    <!-- Contenedor de imagen optimizada -->
+    <div class="performance-image-container">
+     <!-- Versión para pantallas grandes (100% del ancho disponible) -->
+<div style="width: 100%; max-width: 800px; height: auto; aspect-ratio: 4/3; overflow: hidden; border-radius: 8px; box-shadow: 0 3px 10px rgba(0, 107, 49, 0.15); position: relative; background: #f5f5f5; margin: 0 auto;">
+  <img 
+    src="https://lh3.googleusercontent.com/drive-storage/AJQWtBMGcw874uiYbAwNzcLaqdblY7NKKO6mmwTNZG-zylmA8gjXlOopXseHCExwys-w_QpD7FxX3XjjDhCx9xPannQyK8-bxtPhjhACRrWehhwdZg=w1200-h900-nu" 
+    alt="Imagen ProOil"
+    style="width: 100%; height: 100%; object-fit: contain; cursor: zoom-in; transition: transform 0.3s ease; filter: brightness(1.02) contrast(1.05);"
+    onclick="zoomImage(event, this)">
+</div>
+
+<script>
+  function zoomImage(event, img) {
+    const currentScale = img.style.transform ? parseFloat(img.style.transform.replace('scale(', '')) : 1;
+    
+    if (currentScale === 1) {
+      const rect = img.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width * 100).toFixed(2);
+      const y = ((event.clientY - rect.top) / rect.height * 100).toFixed(2);
+      
+      img.style.transform = `scale(1.8)`;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.cursor = 'zoom-out';
+      img.style.zIndex = '100';
+      
+      // Añadir overlay para mejor experiencia
+      const overlay = document.createElement('div');
+      overlay.style.cssText = `
+        position: fixed; top: 0; left: 0; 
+        width: 100vw; height: 100vh; 
+        background: rgba(0,0,0,0.85); 
+        z-index: 99; cursor: zoom-out;
+      `;
+      overlay.onclick = () => {
+        img.style.transform = 'scale(1)';
+        img.style.cursor = 'zoom-in';
+        img.style.zIndex = '1';
+        document.body.removeChild(overlay);
+      };
+      document.body.appendChild(overlay);
+    }
+  }
+</script>
+
+<script>
+  function zoomImage(event, img) {
+    const currentScale = img.style.transform ? parseFloat(img.style.transform.replace('scale(', '')) : 1;
+    
+    if (currentScale === 1) {
+      const rect = img.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width * 100).toFixed(2);
+      const y = ((event.clientY - rect.top) / rect.height * 100).toFixed(2);
+      
+      img.style.transform = `scale(2.2)`;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.cursor = 'zoom-out';
+      img.style.zIndex = '100';
+    } else {
+      img.style.transform = 'scale(1)';
+      img.style.cursor = 'zoom-in';
+      img.style.zIndex = '1';
+    }
+  }
+</script>
+    </div>
+
+    <p><strong>Indicadores de desempeño:</strong></p>
+    <ul>
+        <li>Exactitud de inventarios</li>
+        <li>Tiempo de entrega interna</li>
+        <li>Rotación de productos</li>
+        <li>Errores en surtido (REH-R-18)</li>
+    </ul>
+</div>
+    <footer>
+        <p>© 2023 ProOil - Sistema de Gestión de Calidad | Todos los derechos reservados</p>
+        <p>Contacto: calidad@prooil.com | Teléfono: +52 55 1234 5678</p>
+    </footer>
+</body>
+</html>
